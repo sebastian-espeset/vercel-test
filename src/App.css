@@ -11,9 +11,15 @@ main {
   min-height: 100vh;
   padding: 72px 0;
   text-align: center;
+  
+}
+body{
+  background-color: black;
+
 }
 h1 {
   font-size: 45px;
+  color:white;
 }
 h2 {
   margin-top: 1.5em;
@@ -41,4 +47,11 @@ pre {
 code:before,
 code:after {
   content: '\`';
+}
+button{
+ width: 33rem;
+ height: 33rem;
+ font-size: 2rem; 
+ color: white;
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(242,172,129,1) 29%, rgba(0,212,255,1) 100%);
 }
