@@ -6,6 +6,7 @@ export default function ButtonTest() {
         e.preventDefault();
         setAlert(!alert);
     }
+    console.log("button test")
     if(alert===true){
         return(
             <>
@@ -17,7 +18,7 @@ export default function ButtonTest() {
     return (
         <div>
             <button onClick={handleWarningClick}>Do not click this button</button>
-
         </div>
     )
 }
+
